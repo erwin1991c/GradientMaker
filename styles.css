@@ -1,0 +1,60 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 20px;
+}
+
+.gradient-container {
+	width: 400px;
+	margin: 40px auto;
+	text-align: center;
+}
+
+.gradient-preview {
+	width: 100%;
+	height: 200px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.color-picker {
+	margin-bottom: 20px;
+}
+
+.slider-container {
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="color"] {
+	width: 100px;
+	height: 30px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+
+input[type="range"] {
+	width: 100px;
+	height: 30px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+
+button[id="generate-gradient"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+button[id="generate-gradient"]:hover {
+	background-color: #3e8e41;
+}
